@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+<div class="hello">
     <body>
   <header>
 
@@ -11,27 +11,61 @@
 
       </p>
       <div>
-        <img class="" src="gatosiames.webp" width="33%">
+        <img class="" src="@/assets/gatosiames.webp" width="60%">
       </div>
 
       <div>
-        <img class="" src="gatoragdoll.webp" width="33%">
+        <img class="" src="@/assets/gatoragdoll.webp" width="60%">
       </div>
 
       <div>
-        <img class="" src="gatolaranja.jpg" width="33%">
+        <img class="" src="@/assets/gatolaranja.jpg" width="60%">
       </div>
 
 
     </div>
 
 
-    <iframe width="976" height="549" src="https://www.youtube.com/embed/LMD6MqwErzc"
-      title="Bebês Gatos   Compilação De Vídeos Fofos E Engraçados De Gatos   Gatinhos Fofos No Mundo" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
 
-  </header>
+</header>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Nome</th>
+      <th>Imagem</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Gato Siames</td>
+      <td> <img class="" src="@/assets/gatosiames.webp " width="10%" ></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Gato Ragdoll</td>
+      <td><img class="" src="@/assets/gatoragdoll.webp" width="10%"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Gato Laranja</td>
+      <td><img class="" src="@/assets/gatolaranja.jpg" width="10%"></td>
+    </tr>
+  </tbody>
+</table>
+
+<header>
+  <iframe width="400" height="300" src="https://www.youtube.com/embed/LMD6MqwErzc"
+  title="Bebês Gatos   Compilação De Vídeos Fofos E Engraçados De Gatos   Gatinhos Fofos No Mundo" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
+
+</header>
+
+
+  
 
 
 </body>
