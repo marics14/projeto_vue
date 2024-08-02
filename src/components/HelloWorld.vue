@@ -55,19 +55,6 @@
     </tr>
   </tbody>
 </table>
-
-<header>
-  <iframe width="400" height="300" src="https://www.youtube.com/embed/LMD6MqwErzc"
-  title="Bebês Gatos   Compilação De Vídeos Fofos E Engraçados De Gatos   Gatinhos Fofos No Mundo" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen></iframe>
-
-</header>
-
-
-  
-
-
 </body>
   </div>
 </template>

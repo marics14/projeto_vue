@@ -1,4 +1,5 @@
 <template>
+    <NavbarComponents/>
     <ImagemPrincipal/>
     <VideoUnico/>
     <TabelaUnica/>
@@ -6,13 +7,15 @@
 
 <script>
 import ImagemPrincipal from './ImagemDiversas.vue';
-import VideoUnico from './VideoUnico.vue';
 import TabelaUnica from './TabelaUnica.vue';
+import NavbarComponents from './NavbarComponents.vue';
+import VideoUnico from './VideoUnico.vue';
+
 
 export default {
     name: 'PaginaPrincipal',
     components: {
-          ImagemPrincipal, VideoUnico, TabelaUnica
+          ImagemPrincipal, TabelaUnica, NavbarComponents, VideoUnico
 
     },
     props: {
